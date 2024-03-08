@@ -5,25 +5,24 @@ using System.Diagnostics;
 
 namespace SalesWeb_MVC.Controllers
 {
-    public class HomeController : Controller
+    public class DepartmentsController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<DepartmentsController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public DepartmentsController(ILogger<DepartmentsController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-            return View();
+            List<Department> list = new List<Department>();
+            list.Add(new Department { Id = 1, Name = "Eletronics" });
+            list.Add(new Department { Id = 2, Name = "Fashion" });
+
+            return View(list);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
