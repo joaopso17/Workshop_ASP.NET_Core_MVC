@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s0H/UgVNZ7t3t+ppy8lpy9+5IEJh4j57F79yzULX4ug=",
+  "Hash": "9MUqcT19iDXZKXJd7dhM+u+61bgpwrPVfJnJhSKGTK8=",
   "Source": "SalesWeb_MVC",
   "BasePath": "_content/SalesWeb_MVC",
   "Mode": "Default",
@@ -236,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\joao\\SalesWeb_MVC\\SalesWeb_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cyborg.css",
+      "SourceId": "SalesWeb_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\joao\\SalesWeb_MVC\\SalesWeb_MVC\\wwwroot\\",
+      "BasePath": "_content/SalesWeb_MVC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-cyborg.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cyborg.css"
     },
     {
       "Identity": "C:\\joao\\SalesWeb_MVC\\SalesWeb_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
