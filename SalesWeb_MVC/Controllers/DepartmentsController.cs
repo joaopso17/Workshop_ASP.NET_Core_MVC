@@ -12,9 +12,9 @@ namespace SalesWeb_MVC.Controllers
 {
     public class DepartmentsController : Controller
     {
-        private readonly SalesWeb_MVCContext _context;
+        private readonly DepartmentsContext _context;
 
-        public DepartmentsController(SalesWeb_MVCContext context)
+        public DepartmentsController(DepartmentsContext context)
         {
             _context = context;
         }
