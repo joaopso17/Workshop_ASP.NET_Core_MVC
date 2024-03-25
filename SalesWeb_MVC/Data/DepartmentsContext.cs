@@ -8,6 +8,8 @@ namespace SalesWeb_MVC.Data
         public DepartmentsContext(DbContextOptions<DepartmentsContext> opitions) : base(opitions) { }
 
         public DbSet<Department> Department { get; set; }
+        public DbSet<Seller>  seller { get; set; }
+        public DbSet<SalesRecord> SelesRecord { get; set; }
 
     }
 }
