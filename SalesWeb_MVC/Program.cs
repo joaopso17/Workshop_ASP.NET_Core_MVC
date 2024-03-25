@@ -10,6 +10,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<DepartmentsContext>(options =>
  options.UseSqlServer(builder.Configuration.GetConnectionString("SalesWeb_MVCContext")));
+builder.Services.AddScoped<SeedingService>();
 
 
 var app = builder.Build();
